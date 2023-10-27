@@ -35,5 +35,5 @@ sail npm run dev
 ```
 
 5. Edit your `/etc/hosts` file and add\
-   `127.0.0.1  profile.test`
-6. The site should now be accessible at [profile.test](http://profile.test)
+   `127.0.0.1  markwcodes.test`
+6. The site should now be accessible at [markwcodes.test](http://markwcodes.test)
