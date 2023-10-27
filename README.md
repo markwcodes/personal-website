@@ -1,8 +1,10 @@
 # Personal Website App
 
-### 🚧 This site is under development 🚧
+### 🚧 This site is under construction 🚧
 
 Please see the [infra repo](https://github.com/markwcodes/personal-website-infra) for everything **infrastructure** and **platform** related to this project.
+
+[![CI Status](https://github.com/markwcodes/personal-website/actions/workflows/ci.yml/badge.svg)](https://github.com/markwcodes/personal-website/actions)
 
 ## Overview
 
