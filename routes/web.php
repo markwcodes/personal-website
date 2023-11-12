@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Foundation\Application;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -16,11 +16,11 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
+    return Inertia::render('Home', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
+        'commitShortHash' => Config::get('app.commit_short'),
+        'appVersion' => Config::get('app.app_version'),
     ]);
 });
 

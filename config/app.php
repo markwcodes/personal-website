@@ -187,4 +187,8 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+
+    // Run-time environment variables
+    'commit_short' => env('COMMIT_SHORT_HASH'),
+    'app_version' => env('APP_VERSION'),
 ];
