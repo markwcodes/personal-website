@@ -4,7 +4,6 @@
         "xdebug.php-pack",
         "devsense.phptools-vscode",
         "bradlc.vscode-tailwindcss",
-        "octref.vetur",
         "vue.volar"
     ]
 }
