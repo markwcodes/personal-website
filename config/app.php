@@ -189,6 +189,6 @@ return [
 
 
     // Run-time environment variables
-    'commit_short' => env('COMMIT_SHORT_HASH'),
+    'commit_short' => env('SHORT_COMMIT_HASH'),
     'app_version' => env('APP_VERSION'),
 ];
